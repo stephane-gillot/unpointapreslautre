@@ -79,6 +79,7 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+git st
 
 manifest.json
 
