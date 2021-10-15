@@ -81,8 +81,6 @@ Thumbs.db
 *.zip
 git st
 
-manifest.json
-
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
