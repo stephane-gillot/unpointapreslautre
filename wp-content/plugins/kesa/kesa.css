@@ -1,0 +1,23 @@
+#kesa-table {
+  border: 2px solid darkgrey;
+  }
+
+#kesa-table td,
+#kesa-table th {
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+  padding-left: 12px;
+}
+
+#kesa-table th {
+  background-color: lightgrey;
+  }
+
+#kesa-table .kesa-results{
+  background-color: antiquewhite;
+  font-weight: bold;
+}
+
+#kesa-table tr td:first-child{
+  font-weight: bold;
+}
