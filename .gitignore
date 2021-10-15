@@ -80,6 +80,8 @@ Thumbs.db
 *.tar
 *.zip
 
+manifest.json
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
