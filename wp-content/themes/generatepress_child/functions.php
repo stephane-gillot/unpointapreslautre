@@ -24,7 +24,13 @@ add_action( 'wp_enqueue_scripts', 'child_theme_enqueue_style', 100 );
 //++++++++++++++++++++
 // Filters
 //++++++++++++++++++++
-add_filter( 'generate_copyright', 'upala_custom_copyright' );
+
+/**
+ * Remove the Generate press copyright
+ *
+ * @return string
+ * @author Stéphane Gillot
+ */
 function upala_custom_copyright() {
 	return sprintf(
 		'<span class="copyright">&copy; %1$s %2$s</span>',
@@ -32,3 +38,5 @@ function upala_custom_copyright() {
 		get_bloginfo( 'name' )
 	);
 }
+
+add_filter( 'generate_copyright', 'upala_custom_copyright' );
